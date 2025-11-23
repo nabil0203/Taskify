@@ -7,13 +7,19 @@ Login - Taskify
 
 
 {% block content %}
-<div class="container d-flex justify-content-center align-items-center" style="min-height: 85vh;">
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 70vh;">
 
-    <div class="col-sm-10 col-md-8 col-lg-5">
-
-        <div class="card shadow-lg rounded-5 border-0">
-            <div class="card-body p-5">
-
+    <div class="col-sm-10 col-md-8 col-lg-5"> 
+        
+        <div class="rounded-5 shadow-lg" style="background-color: #e0f2f1; border: 2px solid #b2dfdb;">
+            
+            <div class="text-center pt-4 pb-3 px-3" style="color: #00796b;">
+                <p class="lead fw-bold mb-1">Stay focused on your goals</p>
+                <p class="small mb-0">Taskify keeps your tasks organized</p>
+            </div>
+            
+            <div class="bg-white m-3 p-5 pt-4 rounded-5 shadow-sm"> 
+                
                 <h2 class="text-center mb-5 fw-bolder" style="color: var(--bs-primary);">
                     <i class="bi bi-box-arrow-in-right me-2"></i>Welcome Back
                 </h2>
@@ -29,15 +35,14 @@ Login - Taskify
                 </form>
 
                 <div class="text-center mt-4 border-top pt-3">
-                    <!-- <p class="small text-muted mb-2">
+                      <!-- <p class="small text-muted mb-2">
                         <a href="{% url 'pass_change' %}" class="text-decoration-none small text-secondary">
                             Forgot Password?
                         </a>
                     </p> -->
                     <p class="small mb-0">
                         Don’t have an account?
-                        <a href="{% url 'register' %}" class="text-decoration-none fw-semibold"
-                            style="color: var(--bs-secondary);">Register here</a>
+                        <a href="{% url 'register' %}" class="text-decoration-none fw-semibold" style="color: var(--bs-secondary);">Register here</a>
                     </p>
                 </div>
             </div>
