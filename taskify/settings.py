@@ -26,8 +26,17 @@ SECRET_KEY = 'django-insecure-o1ra_4^sk&wa4yi24*ri8%%ymyhvmu)awsa4euunzpigzd0%&j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://taskify-cq2h.onrender.com/', 'taskify-cq2h.onrender.com']
-CSRF_TRUSTED_ORIGINS = ['https://todo-jte7.onrender.com']
+ALLOWED_HOSTS = [
+    'taskify-cq2h.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://taskify-cq2h.onrender.com',
+    'https://*.onrender.com',
+]
+
 
 
 # Application definition
