@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{%load crispy_forms_tags %} 
+
+{% block title %}Change Password Form{% endblock %}
+{% block content %}
+<form class="container" method="post">
+        {% csrf_token %}
+        <h2>Change Password</h2>
+        {{ form|crispy }}
+        
+        <br>
+        <div class="d-flex justify-content-between" >
+            <input class="btn btn-primary" type="submit">
+            <a href="{% url 'profile' %}" class="btn btn-secondary">👤 Back to Profile</a>
+        </div>
+        
+    </form>
+{% endblock %}

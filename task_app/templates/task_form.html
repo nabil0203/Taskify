@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}Task Create{% endblock %}
+
+{% block content %}
+<h2 class="mb-4">Create a Task</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <br>
+    <div class="d-flex justify-content-between" >
+        <button type="submit" class="btn btn-success">Save Task</button>
+        <a href=" {% url 'task_list' %}" class="btn btn-secondary ms-2">⬅ Back to Tasks</a>
+    </div>
+</form>
+{% endblock %}
