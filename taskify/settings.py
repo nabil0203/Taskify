@@ -27,6 +27,7 @@ SECRET_KEY = 'django-insecure-o1ra_4^sk&wa4yi24*ri8%%ymyhvmu)awsa4euunzpigzd0%&j
 DEBUG = True
 
 ALLOWED_HOSTS = ['https://taskify-cq2h.onrender.com/', 'taskify-cq2h.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://todo-jte7.onrender.com']
 
 
 # Application definition
