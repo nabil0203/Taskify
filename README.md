@@ -1,10 +1,11 @@
 # 📝 Taskify – To-Do Web Application
 
-![Python](https://img.shields.io/badge/Python--blue?logo=python)
-![Django](https://img.shields.io/badge/Django--success?logo=django)
-![Bootstrap](https://img.shields.io/badge/Bootstrap--purple?logo=bootstrap)
-![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey?logo=sqlite)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
+
 
 ### Taskify is a full-stack **Django-based To-Do web application** built using **Django** and **Bootstrap**.  
 ### It allows users to manage their daily tasks with authentication, task filtering, and a clean UI.
